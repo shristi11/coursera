@@ -5,7 +5,6 @@
    	  $scope.mylunch = ""; 
        $scope.checking = function() {
        	var lunches = $scope.mylunch.split(",");
-       	console.log(lunches.length);
        	if(lunches.length == 1) {
        		$scope.message = "Please enter data first";
        
